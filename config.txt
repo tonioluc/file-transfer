@@ -1,0 +1,17 @@
+# Configuration du serveur principal
+PORT=1234
+SERVER_DIR=./reception/
+
+# Configuration des serveurs esclaves
+SLAVE_SERVERS=3
+SLAVE_1_ADDRESS=localhost
+SLAVE_1_PORT=2001
+SLAVE_1_DIR=./slave_reception_1/
+
+SLAVE_2_ADDRESS=localhost
+SLAVE_2_PORT=2002
+SLAVE_2_DIR=./slave_reception_2/
+
+SLAVE_3_ADDRESS=localhost
+SLAVE_3_PORT=2003
+SLAVE_3_DIR=./slave_reception_3/
